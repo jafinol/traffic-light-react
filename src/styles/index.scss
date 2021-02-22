@@ -1,5 +1,75 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.circleR {
+background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px; 
+  position: "relative";
+  margin-left: 20px;
+  
+}
+.circleRON {
+background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px;
+ box-shadow: 0 0 12px 12px olive;
+   
+  position: "relative";
+  margin-left: 20px;
+  
+}
+.circleG {
+background-color: green;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px;
+    margin-left: 20px;
+}
+.circleY {
+background-color: yellow;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px;
+    margin-left: 20px;
+}
+.circleGON {
+background-color: green;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px;
+    margin-left: 20px;
+     box-shadow: 0 0 12px 12px olive;
+}
+.circleYON {
+background-color: yellow;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px;
+    margin-left: 20px;
+     box-shadow: 0 0 12px 12px olive;
+}
+
+.light {
+ position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  margin-left: -60px;
+  margin-top: -160px;
+  background-color: #333;
+  width: 120px;
+  height: 320px;
+  border-radius: 30px;
+}
+
 /* 
 
     You can write your own styles here...
